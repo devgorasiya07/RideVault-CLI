@@ -32,43 +32,6 @@ RideVault-CLI/
 * Extensible service and data access layers
 
 ---
-
-## 🎮 How to Run
-
-### ✅ Compile the Project
-
-**Windows (PowerShell with Maven):**
-
-```bash
-mvn clean compile
-
-```
-
-**Linux/macOS:**
-
-```bash
-mvn clean compile
-
-```
-
-### ▶ Run the App
-
-**Windows:**
-
-```bash
-mvn exec:java -Dexec.mainClass="com.RideVault.Main"
-
-```
-
-**Linux/macOS:**
-
-```bash
-mvn exec:java -Dexec.mainClass="com.RideVault.Main"
-
-```
-
----
-
 ## 🛠️ Requirements
 
 * Java 8 or above
@@ -99,10 +62,3 @@ mvn exec:java -Dexec.mainClass="com.RideVault.Main"
 
 ---
 
-## 📌 Notes
-
-* Ensure your PostgreSQL DB is set up using the `schema.sql` file provided
-* Edit database credentials (username/password) inside `DatabaseConnection.java`
-* Ensure PostgreSQL is running locally on port `5432` before starting
-
-  
